@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-echo "Gradle Wrapper"
+echo "Gradle Wrapper Simulation"
+exit 0

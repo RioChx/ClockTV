@@ -1,3 +1,2 @@
-plugins { id 'com.android.application'; id 'org.jetbrains.kotlin.android' }
-def p = rootProject.ext
-android { namespace p.config.namespace; compileSdk p.versions.compileSdk }
+plugins { id 'com.android.application' }
+android { namespace 'com.a13widget.simulator'; compileSdk 33 }
