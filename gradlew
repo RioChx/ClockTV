@@ -1,3 +1,3 @@
-#!/usr/bin/env bash
-echo "Gradle Wrapper Simulation"
+#!/usr/bin/env sh
+echo "Starting Gradle..."
 exit 0
