@@ -1,9 +1,0 @@
-{
-  "name": "a13-widget-web",
-  "scripts": {
-    "build": "vite build"
-  },
-  "dependencies": {
-    "react": "^19.0.0"
-  }
-}
