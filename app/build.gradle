@@ -1,0 +1,2 @@
+apply plugin: 'com.android.application'
+// References root project_config.gradle
