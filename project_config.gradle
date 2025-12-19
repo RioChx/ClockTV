@@ -1,0 +1,18 @@
+// Centralized Android Project Configuration
+ext {
+    versions = [
+        compileSdk: 33,
+        minSdk: 21,
+        targetSdk: 33,
+        versionCode: 1,
+        versionName: "1.0.0",
+        gradlePlugin: "7.4.2",
+        kotlin: "1.8.0"
+    ]
+    config = [
+        applicationId: "com.a13widget.simulator",
+        namespace: "com.a13widget.simulator",
+        appName: "Android 13 Widget",
+        launcherName: "A13 Widget"
+    ]
+}
