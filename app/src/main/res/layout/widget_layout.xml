@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:background="@drawable/artistic_glass_panel" android:orientation="horizontal"
+    android:padding="20dp" android:gravity="center_vertical">
+    
+    <FrameLayout android:id="@+id/clock_hands_stack"
+        android:layout_width="140dp" android:layout_height="140dp"
+        android:background="@android:drawable/dialog_holo_dark_frame">
+        
+        <!-- Stacking Hands as FrameLayout children -->
+        <View android:id="@+id/hour_hand"
+            android:layout_width="6dp" android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/artistic_hand_hour" />
+            
+        <View android:id="@+id/minute_hand"
+            android:layout_width="3dp" android:layout_height="70dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/artistic_hand_minute" />
+            
+        <View android:layout_width="10dp" android:layout_height="10dp"
+            android:layout_gravity="center" android:background="#FFFFFF"
+            android:backgroundTint="#00F2FF" />
+    </FrameLayout>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_marginStart="20dp">
+        <ImageButton android:id="@+id/btn_home" android:layout_width="56dp" android:layout_height="56dp"
+            android:background="?attr/selectableItemBackgroundBorderless" android:src="@android:drawable/ic_menu_today"
+            android:tint="#00F2FF" />
+        <ImageButton android:id="@+id/btn_recent" android:layout_width="56dp" android:layout_height="56dp"
+            android:layout_marginTop="12dp" android:background="?attr/selectableItemBackgroundBorderless" 
+            android:src="@android:drawable/ic_dialog_dialer" android:tint="#A855F7" />
+    </LinearLayout>
+</LinearLayout>
